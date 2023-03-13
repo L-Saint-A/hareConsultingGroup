@@ -4,11 +4,54 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 *, *:before, *:after {box-sizing: inherit}
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
-/* PROGENITOR STYLING */
+/*
+PROGENITOR STYLING 
+*/
 
 .wrapper { 
     max-width: 1200px; 
     width: 85%; 
     margin: 0 auto;
 }
+html {
+    font-size: 125%;
+}
+li {
+    list-style: none;
+}
+a {
+    color: #070707;
+    text-decoration: none;
+}
 
+/* 
+HEADER STYLING 
+*/
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 20px;
+    background-color: lightgray;
+
+}
+header nav div {
+    border: 1px blue solid;
+    border-radius: 50%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+header nav div h4{
+    padding: 0;
+
+}
+header nav ul {
+    display: flex;
+
+}
+header nav ul li {
+    border: 1px red solid;
+    padding: 6px 12px;
+    margin: 0 12px;
+}

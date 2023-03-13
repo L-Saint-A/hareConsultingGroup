@@ -5,7 +5,13 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
 /*
-PROGENITOR STYLING 
+PROGENITOR STYLING & FONTS
+ABBREV. = font-family: 'Inconsolata', monospace;
+TITLE = font-family: 'Merriweather', serif;
+P TEXT = font-family: 'Open Sans', sans-serif;
+ORANGE = #faa41a
+WHITE = #edeade
+BLACK = #070707
 */
 
 .wrapper { 
@@ -18,21 +24,32 @@ html {
 }
 li {
     list-style: none;
+    font-family: 'Open Sans', sans-serif;
 }
 a {
     color: #070707;
     text-decoration: none;
 }
-
+body {
+    background-color: #070707;
+}
+main {
+    color: #edeade;
+    font-family: 'Open Sans', sans-serif;
+}
 /* 
 HEADER STYLING 
 */
-
+header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(./assets/bark.jpg);
+    background-position: center;
+    background-size: cover;
+}
 header nav {
     display: flex;
     justify-content: space-between;
     padding: 18px 20px;
-    background-color: lightgray;
+    background-color: #070707a1;
 
 }
 header nav div {
@@ -56,8 +73,7 @@ header nav ul li {
     margin: 0 12px;
 }
 .mainHeading {
-    background-color: rgb(167, 197, 197);
-    height: 50vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +81,10 @@ header nav ul li {
 h1 {
     padding: 0;
     margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 4.4rem;
+    letter-spacing: 0.12rem;
+    color: #faa41a;
 }
 
 /* 

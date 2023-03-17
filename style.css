@@ -9,6 +9,7 @@ PROGENITOR STYLING & FONTS
 ABBREV. = font-family: 'Inconsolata', monospace;
 H1 = font-family: 'Noto Serif Lao', serif;
 P TEXT = font-family: 'Open Sans', sans-serif;
+HCG in Nav = font-family: 'DM Serif Display', serif;
 ORANGE = #faa41a
 WHITE = #edeade
 BLACK = #070707
@@ -25,6 +26,8 @@ html {
 li {
     list-style: none;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
 }
 a {
     color: #070707;
@@ -48,32 +51,30 @@ header {
 header nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 18px 20px;
     color: #edeade;
     background: rgb(7,7,7);
     background: linear-gradient(180deg, rgba(7,7,7,0.6642856971890319) 70%, rgba(237,234,222,0) 100%); 
 }
-header nav div {
-    border: 1px blue solid;
-    border-radius: 50%;
-    width: 80px;
-    display: flex;
-    justify-content: center;
-}
+
 header nav div h4{
-    padding: 0;
+    color: #faa41a;
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: -0.1rem;
+    font-family: 'DM Serif Display', serif;
+    text-shadow: rgb(7, 7, 7) 2px 0px 0px, rgb(7, 7, 7) 1.75517px 0.958851px 0px, rgb(7, 7, 7) 1.0806px 1.68294px 0px, rgb(7, 7, 7) 0.141474px 1.99499px 0px, rgb(7, 7, 7) -0.832294px 1.81859px 0px, rgb(7, 7, 7) -1.60229px 1.19694px 0px, rgb(7, 7, 7) -1.97999px 0.28224px 0px, rgb(7, 7, 7) -1.87291px -0.701566px 0px, rgb(7, 7, 7) -1.30729px -1.51361px 0px, rgb(7, 7, 7) -0.421592px -1.95506px 0px, rgb(7, 7, 7) 0.567324px -1.91785px 0px, rgb(7, 7, 7) 1.41734px -1.41108px 0px, rgb(7, 7, 7) 1.92034px -0.558831px 0px;
 }
 header nav ul {
     display: flex;
 }
 header nav ul li {
-    border: 1px red solid;
     padding: 6px 12px;
     margin: 0 12px;
 }
 header nav ul li a {
     color: #edeade;
-
 }
 .mainHeading {
     height: 90vh;
@@ -97,9 +98,9 @@ header nav ul li a {
 h1 {
     padding: 0;
     margin: 0;
-    font-family: 'Noto Serif Lao', serif;
-    font-size: 3.8rem;
-    letter-spacing: 0.22rem;
+    font-family: 'DM Serif Display', serif;
+    font-size: 4rem;
+    letter-spacing: 0.26rem;
     color: #faa41a;
     text-shadow: rgb(7, 7, 7) 2px 0px 0px, rgb(7, 7, 7) 1.75517px 0.958851px 0px, rgb(7, 7, 7) 1.0806px 1.68294px 0px, rgb(7, 7, 7) 0.141474px 1.99499px 0px, rgb(7, 7, 7) -0.832294px 1.81859px 0px, rgb(7, 7, 7) -1.60229px 1.19694px 0px, rgb(7, 7, 7) -1.97999px 0.28224px 0px, rgb(7, 7, 7) -1.87291px -0.701566px 0px, rgb(7, 7, 7) -1.30729px -1.51361px 0px, rgb(7, 7, 7) -0.421592px -1.95506px 0px, rgb(7, 7, 7) 0.567324px -1.91785px 0px, rgb(7, 7, 7) 1.41734px -1.41108px 0px, rgb(7, 7, 7) 1.92034px -0.558831px 0px;
 }

@@ -44,7 +44,6 @@ header {
     background: linear-gradient(0deg, rgba(7,7,7,1) 5%, rgba(7,7,7,0.6642856971890319) 30%, rgba(237,234,222,0) 100%),  url(./assets/bark.jpg);
     background-position: center;
     background-size: cover;
-    
 }
 header nav {
     display: flex;
@@ -81,7 +80,7 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    padding: 8vh 0 0 0;
+    padding: 10% 0 0 0;
 }
 .mainHeading div {
     width: 328px;
@@ -109,8 +108,14 @@ h1 {
 MAIN STYLING
 */
 
-.mainTextContainer {
-    border: 1px green solid;
-    margin: 20px 0;
-    padding: 12px;
+main {
+    background-color: #070707;
+}
+
+main .wrapper {
+    color: #edeade;
+}
+
+.mainTextContainer h3 {
+    margin: 0;
 }

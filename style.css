@@ -7,7 +7,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 /*
 PROGENITOR STYLING & FONTS
 ABBREV. = font-family: 'Inconsolata', monospace;
-TITLE = font-family: 'Merriweather', serif;
+H1 = font-family: 'Noto Serif Lao', serif;
 P TEXT = font-family: 'Open Sans', sans-serif;
 ORANGE = #faa41a
 WHITE = #edeade
@@ -61,7 +61,6 @@ header nav div {
 }
 header nav div h4{
     padding: 0;
-
 }
 header nav ul {
     display: flex;
@@ -73,18 +72,33 @@ header nav ul li {
     margin: 0 12px;
 }
 .mainHeading {
-    height: 75vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.mainHeading div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainHeading div img {
+    width: 80%;
+    height: auto;
+}
+.title {
+    background-color: #070707d0;
+    padding: 18px;
+}
 h1 {
     padding: 0;
     margin: 0;
-    font-family: 'Merriweather', serif;
-    font-size: 4.4rem;
-    letter-spacing: 0.12rem;
+    font-family: 'Noto Serif Lao', serif;
+    font-size: 3.8rem;
+    letter-spacing: 0.22rem;
     color: #faa41a;
+    text-shadow: rgb(7, 7, 7) 2px 0px 0px, rgb(7, 7, 7) 1.75517px 0.958851px 0px, rgb(7, 7, 7) 1.0806px 1.68294px 0px, rgb(7, 7, 7) 0.141474px 1.99499px 0px, rgb(7, 7, 7) -0.832294px 1.81859px 0px, rgb(7, 7, 7) -1.60229px 1.19694px 0px, rgb(7, 7, 7) -1.97999px 0.28224px 0px, rgb(7, 7, 7) -1.87291px -0.701566px 0px, rgb(7, 7, 7) -1.30729px -1.51361px 0px, rgb(7, 7, 7) -0.421592px -1.95506px 0px, rgb(7, 7, 7) 0.567324px -1.91785px 0px, rgb(7, 7, 7) 1.41734px -1.41108px 0px, rgb(7, 7, 7) 1.92034px -0.558831px 0px;
 }
 
 /* 

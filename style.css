@@ -7,7 +7,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 /*
 PROGENITOR STYLING & FONTS
 ABBREV. = font-family: 'Inconsolata', monospace;
-H1 = font-family: 'Noto Serif Lao', serif;
+H1 = font-family: 'Amiri Quran', serif;
 P TEXT = font-family: 'Open Sans', sans-serif;
 HCG in Nav = font-family: 'DM Serif Display', serif;
 ORANGE = #faa41a
@@ -85,12 +85,7 @@ header nav ul li a {
     align-items: baseline;
     padding: 3% 0 0 0;
 }
-.mainHeading div {
-    width: 328px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .mainHeading div img {
     width: 400px;
     height: auto;
@@ -99,11 +94,16 @@ header nav ul li a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
+    border: #faa41a 4px solid;
+}
+.title div {
+    padding: 0 0 28px 0;
 }
 h1 {
-    padding: 0;
+    padding: 0 14px 28px 14px;
     margin: 0;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Amiri Quran', serif;
     font-size: 4rem;
     letter-spacing: 0.26rem;
     color: #faa41a;
@@ -124,6 +124,11 @@ main .wrapper {
 
 .mainTextContainer h3 {
     margin: 0;
+}
+
+.mainTextContainer a {
+    color: #faa41a;
+    text-decoration: underline;
 }
 
 /* 

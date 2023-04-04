@@ -75,13 +75,15 @@ header nav ul li {
 }
 header nav ul li a {
     color: #edeade;
+    font-size: 18px;
+    text-align: center;
 }
 .mainHeading {
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: baseline;
-    padding: 10% 0 0 0;
+    padding: 3% 0 0 0;
 }
 .mainHeading div {
     width: 328px;
@@ -92,9 +94,12 @@ header nav ul li a {
 .mainHeading div img {
     width: 400px;
     height: auto;
-    rotate: -45deg;
 }
-
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 h1 {
     padding: 0;
     margin: 0;
@@ -119,4 +124,37 @@ main .wrapper {
 
 .mainTextContainer h3 {
     margin: 0;
+}
+
+/* 
+HEADER STYLING 
+*/
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+    color: #edeade;
+    background: rgb(7,7,7);
+    background: linear-gradient(180deg, rgba(7,7,7,0.6642856971890319) 70%, rgba(237,234,222,0) 100%); 
+}
+
+footer nav div h4{
+    color: #faa41a;
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: -0.1rem;
+    font-family: 'DM Serif Display', serif;
+    text-shadow: rgb(7, 7, 7) 2px 0px 0px, rgb(7, 7, 7) 1.75517px 0.958851px 0px, rgb(7, 7, 7) 1.0806px 1.68294px 0px, rgb(7, 7, 7) 0.141474px 1.99499px 0px, rgb(7, 7, 7) -0.832294px 1.81859px 0px, rgb(7, 7, 7) -1.60229px 1.19694px 0px, rgb(7, 7, 7) -1.97999px 0.28224px 0px, rgb(7, 7, 7) -1.87291px -0.701566px 0px, rgb(7, 7, 7) -1.30729px -1.51361px 0px, rgb(7, 7, 7) -0.421592px -1.95506px 0px, rgb(7, 7, 7) 0.567324px -1.91785px 0px, rgb(7, 7, 7) 1.41734px -1.41108px 0px, rgb(7, 7, 7) 1.92034px -0.558831px 0px;
+}
+footer nav ul {
+    display: flex;
+}
+footer nav ul li {
+    padding: 6px 12px;
+    margin: 0 12px;
+}
+footer nav ul li a {
+    color: #edeade;
 }

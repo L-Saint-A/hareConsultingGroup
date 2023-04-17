@@ -35,6 +35,10 @@ a {
     color: #faa41a;
 }
 
+a:hover {
+    color: #faa41a;
+}
+
 main {
     color: #070707;
     font-family: 'Open Sans', sans-serif;
@@ -125,7 +129,7 @@ main .wrapper {
     color: #edeade;
 }
 .mainTextContainer {
-    margin: 28px 0;
+    margin: 38px 0;
 }
 .mainTextContainer h3 {
     margin: 0;
@@ -153,14 +157,17 @@ main .wrapper {
 FOOTER STYLING 
 */
 
+footer {
+    background-color: #edeade;
+    border-top: #faa41a 2px solid;
+}
+
 footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 18px 20px;
-    color: #edeade;
-    background: rgb(7,7,7);
-    background: linear-gradient(180deg, rgba(7,7,7,0.6642856971890319) 70%, rgba(237,234,222,0) 100%); 
+    background-color: #070707;
 }
 
 footer nav div h4{
@@ -177,6 +184,7 @@ footer nav ul {
 footer nav ul li {
     padding: 6px 12px;
     margin: 0 12px;
+    text-align: center;
 }
 footer nav ul li a {
     color: #edeade;
